@@ -44,7 +44,6 @@ for i in range(len(a)):
    
                 phone_no = "+{}".format(tel), 
                 message = texto,
-                #wait_time = 5
                 tab_close = True
             )
             sleep(20) # Esse é o tempo médio para que o programa envie a mensagem no navegador
