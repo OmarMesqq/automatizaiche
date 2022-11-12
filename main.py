@@ -1,11 +1,8 @@
-# Automatizaiche 
+# AutomatizAIChE 
 #
 # Projeto Piloto de Hardskills da AIChE UFRJ
 #   Omar Mesquita
-#   Gabriel Bohrer 
-#
-#
-#
+#  
 # Roteiro de automação de mensagens para o Processo Seletivo da AIChE UFRJ
 
 
@@ -14,7 +11,8 @@
 # inclusas nos imports principais mas que 
 # não necessariamente são incluídas na 
 # instalação padrão. 
-# openpyxl (para pandas ler arquivos .xlsx)
+
+# openpyxl (para o pandas ler arquivos .xlsx)
 # tk ou TkInter (em sistemas Linux, para a interface gráfica do pywhatkit)
 
 # Hard depends
@@ -23,7 +21,7 @@ import pandas as pd
 import pywhatkit as pwk
 from time import sleep 
 
-db = pd.read_excel("dados.xlsx") # Criação do database (db) oriundo dos dados alimentados 
+db = pd.read_excel(r"dados.xlsx") # Criação do database (db) oriundo dos dados alimentados 
                                  # pela planilha Excel
 
 a = db.iloc[:,0]  # Variável utilizada para determinar quantos nomes há na lista de candidates
