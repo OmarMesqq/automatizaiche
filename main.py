@@ -1,16 +1,15 @@
 # AutomatizAIChE 
 #
-# Projeto Piloto de Hardskills da AIChE UFRJ
+# Projeto Piloto de Programação da AIChE UFRJ
 #   Omar Mesquita
 #  
 # Roteiro de automação de mensagens para o Processo Seletivo da AIChE UFRJ
 
 
 # Soft depends
-# Geralmente, são bibliotecas 
-# inclusas nos imports principais mas que 
-# não necessariamente são incluídas na 
-# instalação padrão. 
+
+# Geralmente, são bibliotecas inclusas nos imports principais mas que 
+# não necessariamente são incluídas na instalação padrão. 
 
 # openpyxl (para o pandas ler arquivos .xlsx)
 # tk ou TkInter (em sistemas Linux, para a interface gráfica do pywhatkit)
