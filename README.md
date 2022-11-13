@@ -21,8 +21,8 @@ foram especificadas na lista abaixo:
 
 - Melhorar o mecanismo de espera da função: atualmente é empregado o `time.sleep()`
 
-- Anunciar aprovação para outras etapas do PS, enviando mensagens com links específicos para cada candidate]
+- Anunciar aprovação para outras etapas do PS, enviando mensagens com links específicos para cada candidate
 
 - Criar *dashboard* de pessoas inscritas e aprovadas 
 
-- Criar interface gráfica para o aplicativo que permita a importação do arquivo banco de dados(`.xlsx`)
+- Criar interface gráfica para o aplicativo que permita a importação do arquivo banco de dados( `.xlsx` )
