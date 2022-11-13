@@ -3,7 +3,6 @@
 #
 # Projeto Piloto de Programação da AIChE UFRJ
 #   Omar Mesquita
-#  
 
 # Módulos
 
