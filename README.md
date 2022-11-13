@@ -26,3 +26,11 @@ foram especificadas na lista abaixo:
 - Criar *dashboard* de pessoas inscritas e aprovadas 
 
 - Criar interface gráfica para o aplicativo que permita a importação do arquivo banco de dados( `.xlsx` )
+
+
+***
+   
+     Caso tenha alguma dúvida, entre em contato comigo por e-mail ou WhatsApp
+    
+     Lembre-se também de ler a wiki: https://github.com/OmarMesqq/automatizaiche/wiki/P%C3%A1gina-inicial 
+ 
