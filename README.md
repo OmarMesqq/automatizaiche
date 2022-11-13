@@ -32,5 +32,5 @@ foram especificadas na lista abaixo:
    
      Caso tenha alguma dúvida, entre em contato comigo por e-mail ou WhatsApp
     
-     Lembre-se também de ler a wiki: https://github.com/OmarMesqq/automatizaiche/wiki/P%C3%A1gina-inicial 
+     Lembre-se também de ler a wiki: https://github.com/OmarMesqq/automatizaiche/wiki
  
