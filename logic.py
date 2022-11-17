@@ -15,7 +15,7 @@ from tkinter.filedialog import askopenfilename
 def upload(): 
 
     arquivo = askopenfilename(
-        filetypes= (("Arquivos Excel","*.xlsx"), ("all files","*.*"))                    
+        filetypes= (("Arquivos Excel","*.xlsx"), ("Todos os arquivos","*.*"))                    
     )
 
     db = pd.read_excel(arquivo) 
