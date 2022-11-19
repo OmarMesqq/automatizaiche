@@ -9,10 +9,14 @@
 import pandas as pd 
 import pywhatkit as pwk
 from time import sleep 
+from text import texto
 
-db = pd.read_excel(r"dados.xlsx") # Criação do database (db) oriundo dos dados alimentados pela planilha Excel
-                                
-a = db.iloc[:,0]  # Variável utilizada para determinar quantos nomes há na lista de candidates
+# Criação do database (db) oriundo dos dados alimentados pela planilha Excel
+db = pd.read_excel(r"C:\dados.xlsx")
+
+
+# Variável utilizada para determinar quantos nomes há na lista de candidates
+a = db.iloc[:,0]  
 
 for i in range(len(a)): 
     
@@ -20,17 +24,16 @@ for i in range(len(a)):
     tel  = db.iloc[i,1]
     sit  = db.iloc[i,2]
 
+    msg = texto(nome)
 
-    texto = "Oi, {}, tudo bem? Somos da AIChE UFRJ e viemos dizer que você foi {}. Parab".format(nome, sit)
-
-
-    if sit == 'Aprovade':
+    if sit == 'Aprovade' or sit == 'aprovade':
 
             pwk.sendwhatmsg_instantly(
    
                 phone_no = "+{}".format(tel), 
-                message = texto,
+                message = msg,
                 tab_close = True
             )
-        
-            sleep(20) # Esse é o tempo médio para que o programa envie a mensagem no navegador
+
+            # Esse é o tempo médio para que o programa envie a mensagem no navegador
+            sleep(20) 
